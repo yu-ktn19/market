@@ -1,0 +1,136 @@
+.purchase {
+    width: 100%;
+    max-width: 1540px;
+    margin: 0 auto;
+    padding: 70px 0px;
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 100px;
+    box-sizing: border-box;
+}
+
+.purchase__item {
+    display: flex;
+    gap: 45px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #333;
+}
+
+.purchase__item-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.purchase__item-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+
+.purchase__item-price {
+    font-size: 24px;
+}
+
+.price {
+    margin-left: 8px;
+}
+
+.purchase__payment-form {
+    padding: 30px 30px 50px;
+    border-bottom: 1px solid #333;
+}
+
+.purchase__label,
+.purchase__address-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.purchase__select {
+    width: 230px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.purchase__address {
+    position: relative;
+    padding: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.purchase__address-text {
+    margin-left: 50px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.purchase__address-text p {
+    margin: 0;
+}
+
+.purchase__address-link {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #0073cc;
+    text-decoration: none;
+}
+
+.purchase-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 55px;
+}
+
+.purchase-table th,
+.purchase-table td {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.price-mark {
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+.price-number {
+    font-size: 30px;
+}
+
+.purchase-table th {
+    border-left: 1px solid #333;
+    border-right: none;
+}
+
+.purchase-table td {
+    border-right: 1px solid #333;
+    border-left: none;
+    font-size: 24px;
+}
+
+.purchase__button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5555;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .purchase {
+        max-width: 1300px;
+        grid-template-columns: 1fr 380px;
+        gap: 90px;
+    }
+}
