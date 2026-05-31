@@ -17,6 +17,9 @@
 ## mysql:8.0.26
 ## PHP 7.X
 ## laravel 8.X
+## fortify
+## formrequest
+## mailhog
 
 # ER図
 <img width="1002" height="729" alt="スクリーンショット 2026-04-16 202022" src="https://github.com/user-attachments/assets/0a0e86f8-b56a-4732-8e9c-4121e3ed9752" />
